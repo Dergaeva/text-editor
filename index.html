@@ -1,25 +1,26 @@
 <!doctype html>
 <head>
-    <link rel="stylesheet" href="main.css"/>
-    <script src="app.js"></script>
+	<link rel="stylesheet" href="main.css"/>
+	<script src="app.js"></script>
 </head>
 <body>
-    <header>
-        <span>Simple text editor</span>
-    </header>
-    <main>
-        <div id="control-panel">
-            <div id="format-actions">
-                    <button class="format-action" type="button"><b>B</b></button>
-                    <button class="format-action" type="button"><i>I</i></button>
-                    <button class="format-action" type="button"><u>U</u></button>
-            </div>
-        </div>
-        <div id="file-zone">
-            <div id="file">
-
-            </div>
-        </div>
-    </main>
-    <footer>2018. Agile Engine</footer>
+<header>
+	<span>Simple text editor</span>
+</header>
+<video width="1280" height="720" class="bg-video" autoplay muted loop>
+	<source src="img/BackgroundVideo.mp4" type="video/mp4">
+</video>
+<main>
+	<div id="control-panel">
+		<div id="format-actions">
+			<button id="bold" class="format-action" type="button" title="bold"><b>B</b></button>
+			<button id="italic" class="format-action" type="button" title="italic"><i>I</i></button>
+			<button id="underline" class="format-action" type="button" title="underline"><u>U</u></button>
+		</div>
+	</div>
+	<div id="file-zone">
+		<div id="file" class="nText" contenteditable="true">Text</div>
+	</div>
+</main>
+<footer>2018. Agile Engine</footer>
 </body>
